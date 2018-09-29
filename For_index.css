@@ -2,17 +2,19 @@ body{
     text-align: center;
     width: 75%;
     margin: auto;
-    
+    background-color: #040404;
 }
 h1{
     padding: 10px;
     border-style: double;
     border-color: orange;
+    border-radius: 25px;
+    color: antiquewhite;
 }
 
 .main{
-    border-style: outset;
     background-color:antiquewhite;
     padding-left: 10%;
     padding-right: 10%;
+    border-radius: 50px;
 }
