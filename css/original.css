@@ -1,0 +1,50 @@
+html{
+    font-size: 2vh;
+    overflow-x: hidden;
+}
+footer,body>div{
+    padding-left: 30px;
+}
+h1{
+    color: white;
+}
+#main{
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-bottom: 5vh;
+    padding: 15px;
+    width: 50%;
+    min-width: 750px;
+}
+a:link{
+   color: orange;
+}
+a:visited{
+    color: darkorange;
+}
+.banner{
+    width: 100vw;
+    height: 25vh;
+    max-height: 200px;
+}
+#main>table,p{
+    margin-left: 1em;
+}
+table{
+    border: dotted 2px;
+    border-color: orange;
+    border-collapse: collapse;
+}
+table>th,tr,td{
+    border: dotted 2px;
+    border-color: orange;
+}
+#footer_content{
+    font-size: 12vh;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+#must_agree{
+    color: red;
+}
