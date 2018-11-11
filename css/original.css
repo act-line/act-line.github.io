@@ -25,7 +25,7 @@ a:visited{
 }
 .banner{
     width: 100vw;
-    height: 25vh;
+    height: 100%;
     max-height: 250px;
 }
 #main>table,p{
