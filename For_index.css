@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    background-color: #040404;
+}
+h1{
+    padding: 10px;
+    border-style: double;
+    border-color: orange;
+    border-radius: 25px;
+    color: antiquewhite;
+}
+
+.main{
+    background-color:antiquewhite;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    border-style: dotted;
+    border-color: orange;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 25px;
+}
+.OutMain{
+    color: antiquewhite;
+}
+.Main-menu>th,td{
+    width: 33%;
+}
+table>th,tr,td{
+    border: dotted 1px orange;
+}
+ul{
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+li{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
