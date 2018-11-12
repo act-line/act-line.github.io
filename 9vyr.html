@@ -6,9 +6,16 @@
         <link rel="stylesheet" type="text/css" href="css/set.css">
         <link rel="stylesheet" type="text/css" href="css/original.css">
         <title>詳細ページ - 9vyr 半bot,保護bot</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+          $(function() {
+            $("#header").load("template.html");
+            $("#footer").load("footer.html");
+          });
+        </script>
     </head>
     <body>
-        <iframe src="template.html" scrolling="no" frameborder="0" class="banner"></iframe>
+        <div id="header"></div>
         <hr>
         <div>
             <h1>9vyr 半bot,保護bot</h1>
@@ -80,7 +87,7 @@
                 <h5>作者への連絡は<a href="http://line.me/ti/p/U-LtAqNSPk">こちら</a>から</h5>
             </div>
             <hr>
-            <iframe src="footer.html" scrolling="no" frameborder="0" class="banner"></iframe>
+            <div id="footer"></div>
         </div>
     </body>
 </html>

@@ -5,9 +5,16 @@
         <link rel="stylesheet" type="text/css" href="css/set.css">
         <link rel="stylesheet" type="text/css" href="css/original.css">
         <title>actについて</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+          $(function() {
+            $("#header").load("template.html");
+            $("#footer").load("footer.html");
+          });
+        </script>
     </head>
     <body>
-        <iframe src="template.html" scrolling="no" frameborder="0" class="banner"></iframe>
+        <div id="header"></div>
         <hr>
         <div>
             <h1>actについて</h1>
@@ -21,5 +28,5 @@
         </div>
     </body>
     <hr>
-    <iframe src="footer.html" scrolling="no" frameborder="0" class="banner"></iframe>
+    <div id="footer"></div>
 </html>
