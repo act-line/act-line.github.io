@@ -1,0 +1,168 @@
+body {
+    background-color: #464646;
+    font-family: Meiryo, "メイリオ";
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.top {
+    margin: 25px 50px 25px 0px;
+}
+.clear {
+    clear: both;
+}
+.icon {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.logo {
+    display: inline-block;
+    vertical-align:middle;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+    padding-left: 10px;
+}
+.logo > a {
+    color: white;
+    text-decoration: none;
+}
+.items-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1em;
+    padding-right: 11px;
+}
+.items-wrapper > li {
+    display: block;
+    width: 10.8rem;
+    background-color: black;
+    text-align: center;
+    margin-right: 5px;
+}
+.items-wrapper > li > a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 110%;
+    text-shadow: 1px 1px 2px silver;
+    line-height: 40px;
+}
+.items-wrapper > li > a:hover{
+    color: black;
+    background-color: white;
+}
+.main {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.1px 20px 20px 20px;
+}
+.main a {
+    text-decoration: none;
+    color: orange;
+}
+.main a:hover{
+    background-color: black;
+}
+.main a:visited {
+    color: darkorange;
+}
+.main table {
+    border-collapse: collapse;
+}
+.main td{
+    border: dotted 2px;
+    border-color: orange;
+}
+.main table, .main p {
+    margin-left: 1em;
+}
+.main .default {
+    margin-left: 0;
+}
+.red {
+    color: red;
+}
+.bold {
+    font-weight: bold;
+}
+.pause {
+    margin: 20px 0px 20px 0px;
+    height: 1px;
+    background-color: #808080;
+    border: none;
+}
+.footer {
+    margin-top: 20px;
+    font-size: 5%;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .menu-wrapper {
+        display: inline-block;
+        background-color: #333;
+        border-radius: 10px;
+        margin-block-end: 10px;
+        margin-bottom: 30px;
+    }
+    .menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .top {
+        margin: 10px 10px 10px 0px;
+    }
+    .menu {
+        border-radius: 10px;
+        margin-block-end: 10px;
+        background-color: #333;
+        margin-bottom: 15px;
+    }
+    .items-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1em;
+        padding-right: 11px;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .logo {
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+        margin: 0px;
+        padding-left: 8px;
+    }
+    .main{
+        margin-inline-end: 0px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .items-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .items-wrapper > li {
+        width: 48%;
+    }
+    .items-wrapper > li > a {
+        height: 30px;
+        line-height: 30px;
+    }
+}
