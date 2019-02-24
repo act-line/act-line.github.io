@@ -24,10 +24,7 @@ body {
     font-weight: bold;
     margin: 0px;
     padding-left: 10px;
-}
-.logo > a {
     color: white;
-    text-decoration: none;
 }
 .items-wrapper {
     display: flex;
@@ -103,7 +100,9 @@ body {
     font-size: 5%;
     text-align: center;
 }
-
+.footer > p {
+    color: white;
+}
 @media screen and (min-width: 800px) {
     .menu-wrapper {
         display: inline-block;
